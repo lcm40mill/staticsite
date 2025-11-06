@@ -1,6 +1,6 @@
 import unittest, re
 from textnode import TextType, TextNode
-from codework import *
+from inline_markdown import *
 
 class TestInlineMarkdown(unittest.TestCase):
     def test_delim_bold(self):
